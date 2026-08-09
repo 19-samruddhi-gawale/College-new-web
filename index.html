@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KBTCOE College Website</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <img src="college.jpg" class="logo">
+
+    <h1><b>Karmaveer Adv. Baburao Ganpatrao Thakare College of Engineering</b></h1>
+    <p><b>Nashik, Maharashtra</b></p>
+</header>
+
+
+<!-- NAVIGATION -->
+<nav>
+    <button onclick="showPage('home')">Home</button>
+    <button onclick="showPage('courses')">Courses</button>
+    <button onclick="showPage('faculty')">Faculty</button>
+    <button onclick="showPage('placement')">Training & Placement</button>
+    <button onclick="showPage('student')">Student Corner</button>
+</nav>
+
+
+<!-- HOME -->
+<section id="home" class="page">
+
+    <div class="card">
+        <h2>Welcome to KBTCOE</h2>
+
+        <p>
+            KBTCOE Nashik provides quality technical education,
+            practical knowledge, innovation and career opportunities
+            for students.
+        </p>
+    </div>
+
+
+    <div class="card">
+        <h2>Major Recruiters</h2>
+
+        <div class="companies">
+            
+            <h3>
+            <div>TCS</div> 
+            <div>Infosys</div>
+            <div>Wipro</div>
+            <div>IBM</div>
+            <div>Accenture</div>
+            <div>Capgemini</div>
+            <div>Cognizant</div>
+            <div>HCL</div>
+            </h3>
+           
+        </div>
+    </div>
+
+
+    <!-- REGISTRATION FORM -->
+    <div class="card">
+
+        <h2>Student Registration</h2>
+
+        <form id="registrationForm">
+
+            <input type="text"
+                   id="name"
+                   placeholder="Student Name">
+
+            <select id="department">
+
+                <option value="">Select Department</option>
+                <option>Mechanical Engineering</option>
+                <option>Computer Engineering</option>
+                <option>Information Technology</option>
+                <option>Electronics & Telecommunication</option>
+                <option>Civil Engineering</option>
+                <option>Instrumentation Engineering</option>
+                <option>MBA</option>
+
+            </select>
+
+            <input type="email"
+                   id="email"
+                   placeholder="Email Address">
+
+            <button type="submit">Register</button>
+
+        </form>
+
+        <p id="message"></p>
+
+    </div>
+
+</section>
+
+
+<!-- COURSES -->
+<section id="courses" class="page">
+
+    <div class="card">
+
+        <h2>Courses Offered</h2>
+
+        <div class="course-container">
+
+            <div class="course">
+                <h3>Mechanical Engineering</h3>
+                <p>Design, thermal and production engineering.</p>
+            </div>
+
+            <div class="course">
+                <h3>Computer Engineering</h3>
+                <p>Programming, algorithms and software systems.</p>
+            </div>
+
+            <div class="course">
+                <h3>Information Technology</h3>
+                <p>Networking, cloud computing and data systems.</p>
+            </div>
+
+            <div class="course">
+                <h3>Electronics & Telecommunication</h3>
+                <p>Communication systems, embedded systems and IoT.</p>
+            </div>
+
+            <div class="course">
+                <h3>Civil Engineering</h3>
+                <p>Construction, structures and surveying.</p>
+            </div>
+
+            <div class="course">
+                <h3>Instrumentation Engineering</h3>
+                <p>Control systems, sensors and automation.</p>
+            </div>
+
+            <div class="course">
+                <h3>MBA</h3>
+                <p>Management, marketing, finance and HR.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FACULTY -->
+<section id="faculty" class="page">
+
+    <div class="card">
+
+        <h2>Our Faculty</h2>
+
+        <div class="faculty-container">
+
+            <div class="faculty">
+                <img src="HOD sir bio.png">
+                <h2>Dr. S. A. Talekar</h2>
+                <p>HOD, Associate Professor</p>
+                <p>Ph.D. (CSE)</p>
+                <p>Research: Artificial Intelligence</p>
+            </div>
+
+
+            <div class="faculty">
+                <img src="jadhav sir.png">
+                <h2>Dr. S. P. Jadhav</h2>
+                <p>Associate Professor</p>
+                <p>Ph.D.</p>
+                <p>Research: Cloud Computing</p>
+            </div>
+
+
+            <div class="faculty">
+                <img src="tajanpure mam.png">
+                <h2>Dr. R. R. Tajanpure</h2>
+                <p>Assistant Professor</p>
+                <p>Ph.D. (CSE)</p>
+                <p>Research: Machine Learning</p>
+            </div>
+
+
+            <div class="faculty">
+                <img src="Birari sir.png">
+                <h2>Mr. D. A. Birari</h2>
+                <p>Assistant Professor</p>
+                <p>M.E. Computer Engineering</p>
+                <p>Research: Data Mining</p>
+            </div>
+
+            <div class="faculty">
+                <img src="Pachorkar sir.png">
+                <h2>Mr.P.R.Pachorkar</h2>
+                <p>Assistant Professor</p>
+                <p>PhD (Pursuing)</p>
+                <p>Research:Blockchain Technology & Cloud Computing</p>
+            </div>
+
+            <div class="faculty">
+                <img src="deore mam.png">
+                <h2>Mrs.M.C.Deore</h2>
+                <p>Assistant Professor</p>
+                <p>M.E. Computer Engineering</p>
+                <p>Research: --</p>
+            </div>
+
+            <div class="faculty">
+                <img src="More mam.png">
+                <h2>Mrs.R.D.More</h2>
+                <p>Assistant Professor</p>
+                <p>M.Tech. Computer Science Engineering</p>
+                <p>Research: Machine Learning & Image processing</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- COMPLETE FACULTY GROUP PHOTO -->
+
+        <div class="faculty-group">
+
+            <h2>Faculty & Staff of KBTCOE</h2>
+            <center>
+            <img src="IT department mentors.jpg"
+                  height = '450' width = '750' alt="KBTCOE Faculty and Staff">
+            </center>
+            <p>
+               <center><h3>Complete Faculty and Staff Group of KBTCOE</h3></center> 
+            </p>
+
+        </div>
+
+</section>
+
+
+<!-- TRAINING AND PLACEMENT -->
+<section id="placement" class="page">
+
+    <div class="card">
+
+        <h2>Training & Placement</h2>
+
+        <p>
+            The Training and Placement Cell provides training,
+            mock interviews and campus placement opportunities.
+        </p>
+
+
+        <!-- PLACEMENT NUMBERS -->
+        <div class="placement-box">
+
+            <div>
+                <h2>245</h2>
+                <p>2023-24</p>
+            </div>
+
+            <div>
+                <h2>251</h2>
+                <p>2024-25</p>
+            </div>
+
+            <div>
+                <h2>254</h2>
+                <p>2025-26</p>
+            </div>
+
+        </div>
+
+
+        <!-- TABLE -->
+        <h2>Department Wise Placement</h2>
+
+        <table>
+
+            <tr>
+                <th>Department</th>
+                <th>2023-24</th>
+                <th>2024-25</th>
+                <th>2025-26</th>
+            </tr>
+
+            <tr>
+                <td>Mechanical</td>
+                <td>63</td>
+                <td>52</td>
+                <td>79</td>
+            </tr>
+
+            <tr>
+                <td>Computer</td>
+                <td>31</td>
+                <td>34</td>
+                <td>34</td>
+            </tr>
+
+            <tr>
+                <td>Instrumentation</td>
+                <td>35</td>
+                <td>31</td>
+                <td>21</td>
+            </tr>
+
+            <tr>
+                <td>Civil</td>
+                <td>19</td>
+                <td>10</td>
+                <td>7</td>
+            </tr>
+
+            <tr>
+                <td>IT</td>
+                <td>35</td>
+                <td>32</td>
+                <td>23</td>
+            </tr>
+
+            <tr>
+                <td>E & TC</td>
+                <td>32</td>
+                <td>33</td>
+                <td>34</td>
+            </tr>
+
+            <tr>
+                <td>MBA</td>
+                <td>30</td>
+                <td>59</td>
+                <td>56</td>
+            </tr>
+
+        </table>
+
+
+        <!-- GRAPH IMAGES -->
+        <h2>Placement Graphs</h2>
+        
+        <center>
+        <img src="Placement-Record.png" class="graph">
+
+        <img src="Department-wise-Placement-record.png" class="graph">
+        </center>
+    </div>
+
+</section>
+
+
+<!-- STUDENT CORNER -->
+<section id="student" class="page">
+
+    <div class="card">
+
+        <h2>Student Corner</h2>
+
+        <div class="course-container">
+
+            <div class="course">
+                <h3>Technical Magazine</h3>
+                <p>Student articles and project information.</p>
+            </div>
+
+            <div class="course">
+                <h3>Innovative Teaching</h3>
+                <p>Project based and practical learning.</p>
+            </div>
+
+            <div class="course">
+                <h3>Student Projects</h3>
+                <p>Major and minor student projects.</p>
+            </div>
+
+            <div class="course">
+                <h3>Clubs & Committees</h3>
+                <p>Technical and cultural activities.</p>
+            </div>
+
+            <div class="course">
+                <h3>Alumni Network</h3>
+                <p>Connect with college graduates.</p>
+            </div>
+
+            <div class="course">
+                <h3>Grievance Redressal</h3>
+                <p>Student complaint and support system.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <p>Karmaveer Adv. Baburao Ganpatrao Thakare College of Engineering</p>
+    <p>Nashik, Maharashtra</p>
+
+    <p>
+        © <span id="year"></span> KBTCOE
+    </p>
+
+</footer>
+
+
+<!-- JAVASCRIPT -->
+<script src="script.js"></script>
+
+</body>
+</html>

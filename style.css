@@ -1,0 +1,281 @@
+/* BASIC PAGE */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+
+/* HEADER */
+
+header {
+    background: linear-gradient(135deg, #d9a6c4, #c48fb0);
+    text-align: center;
+    padding: 25px;
+}
+
+.logo {
+    width: 140px;
+    height: 140px;
+    border-radius: 30%;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 15px;
+}
+
+header p {
+    color: white;
+    font-size: 18px;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    background: #0b2e59;
+    text-align: center;
+    padding: 15px;
+}
+
+nav button {
+    background: transparent;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background: #345d8c;
+    border-radius: 5px;
+}
+
+
+/* PAGE */
+
+.page {
+    padding: 25px;
+}
+
+
+/* CARD */
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+.card h2 {
+    color: #7b3fa0;
+}
+
+
+/* HIDE PAGES */
+
+#courses,
+#faculty,
+#placement,
+#student {
+    display: none;
+}
+
+
+/* RECRUITERS */
+
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 15px;
+}
+
+.companies div {
+    background: #5581b7;
+    color: rgb(233, 236, 35);
+    padding: 15px;
+    width: 140px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.companies div:hover {
+    transform: translateY(-5px);
+}
+
+
+/* FORM */
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+input,
+select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #0b2e59;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #08213f;
+}
+
+
+/* COURSES */
+
+.course-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course {
+    background: #f8f8f8;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #ddd;
+}
+
+.course:hover {
+    transform: translateY(-5px);
+}
+
+
+/* FACULTY */
+
+.faculty-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.faculty {
+    width: 220px;
+    text-align: center;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #ddd;
+}
+
+.faculty img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* PLACEMENT */
+
+.placement-box {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.placement-box div {
+    background: #0b2e59;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.placement-box h2 {
+    color: white;
+}
+
+
+/* TABLE */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th {
+    background: #0b2e59;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+
+/* GRAPHS */
+
+.graph {
+    width: 45%;
+    margin: 10px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background: #08213f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+/* MOBILE SCREEN */
+
+@media (max-width: 700px) {
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav button {
+        display: block;
+        width: 100%;
+    }
+
+    .course,
+    .faculty {
+        width: 100%;
+    }
+
+    .placement-box {
+        flex-direction: column;
+    }
+
+    .placement-box div {
+        width: auto;
+    }
+
+    .graph {
+        width: 100%;
+    }
+
+}
